@@ -170,10 +170,10 @@ I learned that using pytest "with pytest.raises(SystemExit) as ...." you can div
 the exit. \
 Example to test for "exit(9)":
 
-                with pytest.raises(SystemExit) as sample:
-                    my_function(...)
-                assert sample.type == SystemExit
-                assert sample.value.code == 9
+             with pytest.raises(SystemExit) as sample:
+                 my_function(...)
+             assert sample.type == SystemExit
+             assert sample.value.code == 9
 
 
 **Conclusion**:\
