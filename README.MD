@@ -99,20 +99,7 @@ No price or mpg figures are given as arguments. The program will then lookup the
 price of gas and let you enter the different cars you want to compare. The output could look 
 like this:
 
-Estimated cost of gasolin for driving 14263 miles based on $3.24 per gallon.
-+--------+--------------------+--------+-----------+-----------+------------+------------+------------+
-| Make   | Model              |   Year |   Mpg Cty |   Mpg Hwy | Cost Cty   | Cost Hwy   | Cost Avg   |
-+========+====================+========+===========+===========+============+============+============+
-| Honda  | Pilot AWD          |   2019 |        18 |        26 | $2567.34   | $1777.39   | $2100.55   |
-+--------+--------------------+--------+-----------+-----------+------------+------------+------------+
-| Honda  | Pilot AWD          |   2021 |        19 |        26 | $2432.22   | $1777.39   | $2053.87   |
-+--------+--------------------+--------+-----------+-----------+------------+------------+------------+
-| Jeep   | Grand Cherokee 4WD |   2021 |        14 |        22 | $3300.87   | $2100.55   | $2567.34   |
-+--------+--------------------+--------+-----------+-----------+------------+------------+------------+
-| Toyota | Sequoia 4WD        |   2021 |        13 |        17 | $3554.78   | $2718.36   | $3080.81   |
-+--------+--------------------+--------+-----------+-----------+------------+------------+------------+
-| Lexus  | LX 570             |   2020 |        12 |        16 | $3851.01   | $2888.26   | $3300.87   |
-+--------+--------------------+--------+-----------+-----------+------------+------------+------------+
+![Example output for use case 2](use_case2.png)
 
 The data shown as output is also saved in a csvfile (cars.csv) to use for example in a 
 spreadsheet program.
